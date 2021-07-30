@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.olxfake.ui.home.ListaAnunciosFragment"
+        android:label="@string/menu_anuncio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_anuncio"
+        android:name="com.example.olxfake.ui.cadastro.CadastroFragment"
+        android:label="@string/menu_inserir_anuncio"
+        tools:layout="@layout/fragment_cadastro" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.olxfake.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_notificacao"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.olxfake.ui.tools.ToolsFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.olxfake.ui.favoritos.FavoritosFragment"
+        android:label="@string/menu_favorito"
+        tools:layout="@layout/fragment_favoritos" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.olxfake.ui.send.SendFragment"
+        android:label="@string/menu_conta"
+        tools:layout="@layout/fragment_send" />
+</navigation>

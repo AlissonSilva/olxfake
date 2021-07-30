@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">OLX Fake</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_acessar_conta_title">Acesse sua conta agora!</string>
+    <string name="nav_click_aqui">Clique aqui</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+    </string-array>
+
+    <string name="titulo_anuncio">Anúncio</string>
+
+    <string name="menu_anuncio">Anúncios</string>
+    <string name="menu_inserir_anuncio">Inserir Anúncio</string>
+    <string name="menu_notificacao">Notificação</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_favorito">Favoritos</string>
+    <string name="menu_conta">Minha Conta</string>
+    <string name="title_activity_anuncio">ActivityAnuncio</string>
+</resources>

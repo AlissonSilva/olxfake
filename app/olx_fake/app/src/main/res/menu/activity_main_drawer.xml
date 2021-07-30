@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/olx_logo_final"
+            android:title="@string/menu_anuncio" />
+        <item
+            android:id="@+id/nav_anuncio"
+            android:icon="@drawable/ic_inserir_anuncio"
+            android:title="@string/menu_inserir_anuncio" />
+
+    </group>
+
+    <item>
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_favorito"
+                android:title="@string/menu_favorito" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_usuario"
+                android:title="@string/menu_conta" />
+        </menu>
+    </item>
+
+</menu>
