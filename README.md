@@ -16,6 +16,7 @@ DB_PASSWORD= <br>
 
 Após configuração do arquivo .env, executar os comando abaixo.
 
+<b>composer install</b><br>
 <b>php artisan migrate</b><br>
 <b>php artisan serve</b>
 
@@ -30,11 +31,11 @@ Após configuração do arquivo .env, executar os comando abaixo.
 
 Verificar no arquivo <b>olxfake\api\ApiService.kt</b> o retorno do Retrofit, configurar o end point correto.
 
-return Retrofit.Builder()
-            .baseUrl("http://192.168.56.1:8000/")
-            .addConverterFactory(GsonConverterFactory.create())
-            .client(client)
-            .build()
+return Retrofit.Builder()<br>
+            .baseUrl("http://192.168.56.1:8000/")<br>
+            .addConverterFactory(GsonConverterFactory.create())<br>
+            .client(client)<br>
+            .build()<br>
             
  ### Screenshot
  
